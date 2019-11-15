@@ -1,0 +1,26 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+# relative_permalinks: true
+
+# Setup
+title:               Yassine Belmamoun
+tagline:             'Personal website'
+description:         ''
+url:                 http://www.yassinebelmamoun.com
+baseurl:             ''
+paginate:            5
+paginate_path: "page:num"
+
+# About/contact
+author:
+  name:              Yassine Belmamoun
+  url:               https://www.yassinebelmamoun.com
+  email:             belmamoun.yassine@gmail.com
+
+# Custom vars
+version:             1.0.0
+
+# Plugins, Tags, Categories and Analytics
+plugins:          [jekyll-paginate]
